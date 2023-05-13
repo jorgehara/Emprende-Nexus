@@ -1,7 +1,9 @@
 import Container from './container'
 import { EXAMPLE_PATH } from '../lib/constants'
+import Image from 'next/image'
 
 const Footer = () => {
+
   return (
     <footer className="bg-black-50 border-t border-black-200">
       <Container>
@@ -63,6 +65,20 @@ fill='#ffff'
             </a>
             </div>
           </div>
+        </div>
+      </Container>
+      <Container>
+        <div className="py-12 border-t-2 flex-col justify-center  items-center">
+          <Image
+          className='rounded-full items-center'
+            src="/JovatosTeam.png"
+            alt="Picture of the author"
+            width={200}
+            height={200}
+          />
+          <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-start mb-10 lg:mb-0 lg:pr-2 lg:w-1/2">
+          By Jovatos Inc.
+          </h3>
         </div>
       </Container>
     </footer>
