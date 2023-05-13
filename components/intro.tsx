@@ -17,11 +17,11 @@ const Intro = () => {
       </div>
       <div className="flex text-center md:text-left text-lg mt-5 md:pl-8">
         <div className='mr-1'>
-          <Image
+          {/* <Image
             width={90}
             height={90}
             src="/hand3.png"
-            alt="Picture of the author" />
+            alt="Picture of the author" /> */}
         </div>
       </div>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
