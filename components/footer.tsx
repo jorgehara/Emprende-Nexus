@@ -16,7 +16,7 @@ const Footer = () => {
               href="https://nextjs.org/docs/basic-features/pages"
               className="mx-3 bg-white hover:bg-white hover:text-black border border-green text-black font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
             >
-              Comenzá GRATIS
+            Sumate!
             </a>
           </div>
         </div>
@@ -68,7 +68,7 @@ fill='#ffff'
         </div>
       </Container>
       <Container>
-        <div className="py-12 border-t-2 flex-col justify-center  items-center">
+        <div className="py-12 border-t-2 flex-col justify-center items-center">
           <Image
           className='rounded-full items-center'
             src="/JovatosTeam.png"
